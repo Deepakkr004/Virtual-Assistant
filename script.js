@@ -52,10 +52,10 @@ function takeCommand(message){
     else if(message.includes("what is your name")){
         speak("my name is Sidhi, I am a virtual assistant")
     }
-    else if(message.includes("who are you?" || "hu r u")){
+    else if(message.includes("who are you" || "who are you?" || "hu r u")){
         speak("I am a virtual assistant, Created by Mr. Deepak Kumar")
     }
-    else if(message.includes("how are you?")){
+    else if(message.includes("how are you?" || "how are you")){
         speak("I am good, thanks for asking me, how are you?")
     }
     else if(message.includes("open youtube")){
